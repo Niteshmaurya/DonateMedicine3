@@ -1,0 +1,167 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Noto Sans', sans-serif; 
+    /* height: 49px; */
+}
+.container{
+    height: 50px;
+    width: 100%;
+    /* background-color: ; */
+    display: flex;
+    
+    justify-content: right;
+    align-items: center;
+    margin-top: 36px;
+
+}
+.container nav ul{
+    display: flex;
+    align-items: center;   
+    /* text-decoration: none; */
+    /* justify-content: center; */
+    list-style: none;
+    margin-right: 32px;
+
+}
+li{
+    margin-right: 22px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+.discriptive{
+    color: #3d4554;
+}
+
+.container .logo{
+    font-size: 22px;
+    color: #2191f7;
+    position: absolute;
+    right: 1259px; 
+    font-weight: 5px;
+    /* background-image: url(download.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    
+
+}
+ .container .logo2{
+    /* background-size: contain; */
+    /* background-color: white; */
+    /* border: 1px solid red;  */
+    background-repeat: no-repeat;   
+    position: absolute;
+    left: 25px;
+    padding: 0px 14px;
+    top: -6px;
+    margin-top: 36px;
+  
+}
+.container .logo2 img{
+    height: 54px;
+    right: 9px;
+    position: relative;
+    top: 6px;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+#heading{
+    font-size: 1000px;
+    font-family: 'Noto Serif TC', serif;
+    margin: 53px auto auto 95px;
+    /* display: inline; */
+}
+.main{
+    height: 80vh;
+    width: 54vw;
+    display: block;
+    justify-content: start;
+   
+    
+}
+.forBGC{
+    background-color: #e8fbe8;
+}
+.image{
+    display: flex;
+    justify-content: end;
+    /* width: 50vw; */
+    height: 123vh;
+    position: relative;
+    bottom: 636px;
+    right: 40px;
+}
+.disc2{
+    margin: 5px auto auto 95px;
+}
+
+.readyBox .ready{
+    position: absolute;
+    left: 75px;
+    top: 1006px;
+    font-size: 75px;
+    font-family: 'Noto Serif TC', serif;
+    color: #3d4554  ;
+
+
+}
+.readyBox .ready p{
+    position: absolute;
+    top: 1099px;
+    left: 75px;
+    font-size: 34px;
+}
+.readyBox .ready2{
+    position: absolute;
+    top: 1099px;
+    left: 75px;
+    font-size: 34px;
+}
+input.ready2{
+    width: 40px;
+    height: 40px;
+}
+
+.medicineName{
+    /* height: auto; */
+    width: 500px;
+    /* background-color: #eaebec; */
+    
+}
+
+.details{
+    /* height: 50vh; */
+   background: white;
+}
+.medicineName .GiveMargin{
+
+   margin-top: 25px; 
+   
+}
+.detailMedicine{
+    position: absolute;
+   /* display: flex; */
+left: 75px;
+top: 1593px;
+width: 90vw;
+font-size: 20px;
+
+}
+.details p input{
+    /* margin-top: 15px; */
+    width: 49%;
+    /* height: 60%; */
+}
+
+.incHeight{
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.decWidth{
+    width: 10px;
+    margin-right: 5px;
+}

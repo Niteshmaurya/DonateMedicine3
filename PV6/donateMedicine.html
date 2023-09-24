@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="DonateMedicine.css">
+<link rel="stylesheet" href="aboutUs.css">
+<link rel="stylesheet" href="modal.css">
+
+<body>
+    <!-- <h1>Stop medication waste. Save lives.</h1> -->
+
+    <div class="container" style="font-size: 23px;">
+        <div class="logo2">
+            <img src="logo2.png" alt="">
+        </div>
+        <div class="logo" style="font-size: 32px" ;>
+            GiveForLife
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="donateMedicine.html">Donate Medicine</a></li>
+                <li><a href="ReceiveMedicine.html">Receive Medicine</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <button class="btn" id="trigger">
+                    sign up
+                </button>
+                <button class="btn" id="trigger2">
+                    sign in
+                </button>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="forBGC">
+        <div class="main">
+            <div class="discriptive">
+                <h1 id="heading" style="font-size: 100px;">Stop medication waste. Save lives.</h1>
+
+            </div>
+            <div class="disc2">
+                <h3 id="text_block">With millions of Americans unable to afford their prescriptions each year, how can
+                    we let perfectly good medicine go unused? Up to $11 billion in unopened, unexpired medicine gets
+                    destroyed each year. With your help, we can turn that waste into life-saving care for people who
+                    need it.</h3>
+                </div>
+            </div>
+            <div class="readyBox">
+            <div class="ready">  Ready to donate ?</div>
+            <div class="ready2">
+            <form action="/action_page.php">
+                <p>Donated medicine must meet ALL of these criteria</p> <br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Is not a controlled substance (no narcotics or opioids)</label><br> <br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Will not expire for at least 5 months</label><br><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3">Is in sealed packaging (standard amber vials not eligible)</label><br> <br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3">Does not require refrigeration</label> <br> <br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3">Understand there is a ₹100+ shipping charge
+                </label><br> <br>
+                <!-- <input type="submit" value="Submit"> -->
+              </form>
+            </div>
+        </div>
+
+        <div class="image"><img src="donateMedicine.png" alt=""></div>
+        
+
+    <div class="detailMedicine">  
+        <div class="details"> <br>
+            <p>My Name : <br> <input  placeholder="First" class="incHeight"type="text" ">  <input placeholder="Last"    class="incHeight" type="text"></p>
+            <p>My Email : <br> <input placeholder="Email id" class="incHeight" type="text"> </p>
+            <p>My Address : <br> <input placeholder="Adress line 1" class="incHeight" type="text"> 
+            <input placeholder="Adress line 2" class="incHeight" type="text"> </p>
+            <p> <input placeholder="City" class="incHeight" type="text"> 
+             <select id="country-state" class="incHeight" name="country-state">
+    <option value="">Select state</option>
+    <option value="AN">Andaman and Nicobar Islands</option>
+    <option value="AP">Andhra Pradesh</option>
+    <option value="AR">Arunachal Pradesh</option>
+    <option value="AS">Assam</option>
+    <option value="BR">Bihar</option>
+    <option value="CH">Chandigarh</option>
+    <option value="CT">Chhattisgarh</option>
+    <option value="DN">Dadra and Nagar Haveli</option>
+    <option value="DD">Daman and Diu</option>
+    <option value="DL">Delhi</option>
+    <option value="GA">Goa</option>
+    <option value="GJ">Gujarat</option>
+    <option value="HR">Haryana</option>
+    <option value="HP">Himachal Pradesh</option>
+    <option value="JK">Jammu and Kashmir</option>
+    <option value="JH">Jharkhand</option>
+    <option value="KA">Karnataka</option>
+    <option value="KL">Kerala</option>
+    <option value="LA">Ladakh</option>
+    <option value="LD">Lakshadweep</option>
+    <option value="MP">Madhya Pradesh</option>
+    <option value="MH">Maharashtra</option>
+    <option value="MN">Manipur</option>
+    <option value="ML">Meghalaya</option>
+    <option value="MZ">Mizoram</option>
+    <option value="NL">Nagaland</option>
+    <option value="OR">Odisha</option>
+    <option value="PY">Puducherry</option>
+    <option value="PB">Punjab</option>
+    <option value="RJ">Rajasthan</option>
+    <option value="SK">Sikkim</option>
+    <option value="TN">Tamil Nadu</option>
+    <option value="TG">Telangana</option>
+    <option value="TR">Tripura</option>
+    <option value="UP">Uttar Pradesh</option>
+    <option value="UT">Uttarakhand</option>
+    <option value="WB">West Bengal</option>
+</select>
+             <input placeholder="City Code" class="incHeight decWidth" type="text"> </p>
+             
+
+        </div>
+                <br> <br>
+        <div class="medicineName">
+            <p class="GiveMargin">National Drug Code (NDC) : <br> <input placeholder="" type="text"> <br> <p style="font-style: italic; font-size: smaller;">Also known as NDC / UPC.</p> </p>
+            <p class="GiveMargin">Drug Name and Strength : <br> <input placeholder="" type="text"> <br>  </p>
+            <p class="GiveMargin">Expiration Date : <br> <input placeholder="" type="date"> <br> <p style="font-style: italic; font-size: smaller;">Expiration date must be 5 months out from current date.</p> </p>
+            Qty Type
+            <select name="Qty Type" required>
+                <option selected hidden value=""></option>
+                <option value="977">Pills (Tablets, Capsule, Etc)</option>
+                <option value="978">Milliliters (Liquid, Solution, Drops)</option>
+                <option value="979">Inhalers</option>
+                <option value="973">Injections</option>
+                <option value="972">Patches</option>
+                <option value="974">Tubes (Cream,Ointment, Lotion)</option>
+                <option value="970">Other </option>
+               </select>
+               <p class="GiveMargin">Qty <input placeholder="" type="text"> <br>  </p>
+        </div>
+    </div>  
+    </div>
+  
+
+
+    <!-- ********************************************** Login page  -->
+
+    <div class="modalWrapper">
+        <div class="modalContainer">
+            <button class="close">&times;</button>
+            <h2>login now</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ex amet ab? Exercitationem enim nulla
+                accusamus consequatur blanditiis, repellat facilis porro. Dignissimos sunt quae placeat labore, soluta
+                et quod a animi, suscipit quidem nisi!</p>
+            <div class="action">
+                <button>Login</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="modalD.js"></script>
